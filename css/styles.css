@@ -137,3 +137,20 @@ a.botton:hover{
     letter-spacing: 0.1px;
     font-size: 14px;
 }
+
+@media screen and (max-width: 620px) {
+  .search-box input{
+    width: 80%;
+  }
+  .profile-img{
+    display:none;
+  }
+}
+@media screen and (max-width: 530px) {
+  .bottom-site-links li{
+    margin:0;
+    padding: 0;
+    display: block;
+    float: none;
+  }
+}
